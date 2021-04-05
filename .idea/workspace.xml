@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3f6e4e1-717d-463f-be54-ec9f0cec9dab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/src/main/java/testauto/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/src/main/java/testauto/multiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/src/test/java/testauto/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/target/classes/testauto/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_auto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_auto/src/main/java/testauto/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_auto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test_auto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_auto/src/main/java/testauto/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_auto/src/main/java/testauto/multiple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_auto/target/classes/testauto/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_auto/target/classes/testauto/multiple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_auto/target/test-classes/testauto/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +39,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -87,6 +68,46 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testauto" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="testauto" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,6 +127,9 @@
       <workItem from="1617354527197" duration="657000" />
       <workItem from="1617380493578" duration="248000" />
       <workItem from="1617520008040" duration="2065000" />
+      <workItem from="1617559481064" duration="1161000" />
+      <workItem from="1617563709459" duration="2043000" />
+      <workItem from="1617595411329" duration="897000" />
     </task>
     <servers />
   </component>
