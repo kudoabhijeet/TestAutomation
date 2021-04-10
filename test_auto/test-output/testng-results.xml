@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-10T16:00:33Z" name="Default suite" finished-at="2021-04-10T16:00:41Z" duration-ms="7611">
+    <groups>
+    </groups>
+    <test started-at="2021-04-10T16:00:33Z" name="Default test" finished-at="2021-04-10T16:00:41Z" duration-ms="7611">
+      <class name="testauto.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testauto.LoginTest@2ddc9a9f]" started-at="2021-04-10T16:00:33Z" name="SetUp" finished-at="2021-04-10T16:00:37Z" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="signInButton()[pri:0, instance:testauto.LoginTest@2ddc9a9f]" started-at="2021-04-10T16:00:37Z" name="signInButton" finished-at="2021-04-10T16:00:39Z" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInButton -->
+        <test-method signature="input()[pri:1, instance:testauto.LoginTest@2ddc9a9f]" started-at="2021-04-10T16:00:39Z" name="input" finished-at="2021-04-10T16:00:40Z" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method signature="loginButton()[pri:2, instance:testauto.LoginTest@2ddc9a9f]" started-at="2021-04-10T16:00:40Z" name="loginButton" finished-at="2021-04-10T16:00:40Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButton -->
+        <test-method is-config="true" signature="closeChromeWindow()[pri:0, instance:testauto.LoginTest@2ddc9a9f]" started-at="2021-04-10T16:00:40Z" name="closeChromeWindow" finished-at="2021-04-10T16:00:41Z" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChromeWindow -->
+      </class> <!-- testauto.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
