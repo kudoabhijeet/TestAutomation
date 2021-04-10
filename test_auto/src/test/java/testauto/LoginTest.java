@@ -28,7 +28,7 @@ public class LoginTest{
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		htmlReporter = new ExtentHtmlReporter("extent.html");
+		htmlReporter = new ExtentHtmlReporter("index.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 
